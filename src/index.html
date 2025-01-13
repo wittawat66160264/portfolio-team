@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-lg font-bold">My Portfolio</a>
+            <ul class="flex space-x-4">
+                <li><a href="#hero" class="hover:underline">Home</a></li>
+                <li><a href="#about" class="hover:underline">About</a></li>
+                <li><a href="#projects" class="hover:underline">Projects</a></li>
+                <li><a href="#contact" class="hover:underline">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="hero" class="bg-blue-500 text-white h-screen flex items-center justify-center py-10">
+        <div class="text-center max-w-2xl mx-auto px-4">
+            <!-- Profile Picture Frame -->
+            <div class="mx-auto mb-6 w-40 h-40 border-4 border-white rounded-full overflow-hidden">
+                <img src="https://media.discordapp.net/attachments/1301165198815789157/1328415286935687259/Screenshot_2025-01-14_002709.png?ex=67869ea5&is=67854d25&hm=b2c368d48c50bbfb5869ed8f5dba539381e4a2ee79195961eb5c4543bfff1c1f&=&format=webp&quality=lossless&width=432&height=350" alt="Your Profile" class="w-full h-full object-cover">
+            </div>
+
+            <!-- Name and Position -->
+            <h1 class="text-5xl font-bold mb-4">Hi, I'm [Your Name]</h1>
+            <p class="text-xl font-light mb-6">A passionate web developer focused on building creative and efficient
+                solutions.</p>
+
+            <!-- Short Description -->
+            <p class="mb-8 text-lg text-gray-200">I specialize in creating engaging websites and web applications that
+                offer exceptional user experiences. Let's collaborate to make something amazing!</p>
+
+            <!-- Social Media Links -->
+            <div class="flex justify-center space-x-6">
+                <a href="https://facebook.com" target="_blank" class="text-white hover:text-blue-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-8 w-8" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                            d="M22 12.07c0-5.34-4.37-9.71-9.71-9.71-4.59 0-8.48 3.29-9.49 7.65-.06-.01-.12-.02-.18-.02C3.54 9.85 0 12.62 0 15.91c0 4.07 2.87 7.58 6.67 8.7v-6.15h-2v-2.39h2V13.3c0-2.39 1.41-3.74 3.52-3.74 1.03 0 2.11.18 2.11.18v2.32h-1.19c-1.17 0-1.53.73-1.53 1.48v1.75h2.61l-1.03 2.39h-1.58v6.15c3.8-1.12 6.67-4.62 6.67-8.7z">
+                        </path>
+                    </svg>
+                </a>
+                <a href="https://twitter.com" target="_blank" class="text-white hover:text-blue-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-8 w-8" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                            d="M23.44 4.83c-.88.39-1.83.64-2.83.76 1.02-.61 1.8-1.57 2.17-2.72-.95.56-2.02.97-3.14 1.18-.9-.95-2.18-1.55-3.58-1.55-2.71 0-4.91 2.2-4.91 4.91 0 .38.04.75.11 1.1-4.08-.2-7.7-2.16-10.14-5.14-.42.72-.66 1.56-.66 2.45 0 1.69.86 3.18 2.18 4.06-.81-.03-1.57-.25-2.23-.62v.06c0 2.36 1.68 4.32 3.91 4.77-.41.11-.84.17-1.29.17-.31 0-.61-.03-.91-.09.62 1.94 2.43 3.36 4.58 3.4-1.67 1.3-3.77 2.08-6.05 2.08-.39 0-.78-.02-1.16-.07 2.16 1.39 4.74 2.21 7.47 2.21 8.97 0 13.91-7.44 13.91-13.91 0-.21 0-.42-.02-.63.95-.69 1.77-1.55 2.43-2.52z">
+                        </path>
+                    </svg>
+                </a>
+                <!-- Instagram Link -->
+                <a href="https://instagram.com" target="_blank" class="text-white hover:text-blue-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-8 w-8" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                            d="M12 2.16c1.54 0 1.72.01 2.33.03.57.02 1.01.11 1.25.23.3.13.53.31.75.53.22.22.4.45.53.75.12.24.21.67.23 1.24.02.61.03.79.03 2.34 0 1.54-.01 1.72-.03 2.33-.02.57-.11 1.01-.23 1.25-.13.3-.31.53-.53.75-.22.22-.45.4-.75.53-.24.12-.67.21-1.24.23-.61.02-.79.03-2.33.03-1.55 0-1.72-.01-2.33-.03-.57-.02-1.01-.11-1.24-.23-.3-.13-.53-.31-.75-.53-.22-.22-.4-.45-.53-.75-.12-.24-.21-.67-.23-1.24-.02-.61-.03-.79-.03-2.33 0-1.54.01-1.72.03-2.33.02-.57.11-1.01.23-1.25.13-.3.31-.53.53-.75.22-.22.45-.4.75-.53.24-.12.67-.21 1.24-.23.61-.02.79-.03 2.33-.03zm0 1.9c-1.4 0-1.55.01-2.09.03-.55.02-.87.11-1.09.23-.27.12-.46.29-.67.5-.2.2-.37.4-.5.67-.12.23-.21.55-.23 1.09-.02.54-.03.7-.03 2.09 0 1.4.01 1.55.03 2.09.02.54.11.86.23 1.09.12.27.3.47.5.67.21.2.4.37.67.5.22.12.55.21 1.09.23.54.02.69.03 2.09 0 2.09s1.55-.01 2.09-.03c.55-.02.87-.11 1.09-.23.27-.12.46-.29.67-.5.2-.2.37-.4.5-.67.12-.23.21-.55.23-1.09.02-.54.03-.7.03-2.09 0-1.4-.01-1.55-.03-2.09-.02-.54-.11-.87-.23-1.09-.12-.27-.3-.47-.5-.67-.21-.2-.4-.37-.67-.5-.24-.12-.55-.21-1.09-.23-.54-.02-.69-.03-2.09 0zM12 7.51a4.49 4.49 0 1 0 0 8.98 4.49 4.49 0 0 0 0-8.98zM12 9.85a2.49 2.49 0 1 1 0 4.98 2.49 2.49 0 0 1 0-4.98z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+
+            <!-- Learn More Button -->
+            <a href="#about"
+                class="mt-8 inline-block bg-white text-blue-500 py-2 px-6 rounded-lg text-lg font-semibold">Learn
+                More</a>
+        </div>
+    </section>
+</body>
+
+</html>
