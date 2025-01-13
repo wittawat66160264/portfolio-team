@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-lg font-bold">My Portfolio</a>
+            <ul class="flex space-x-4">
+                <li><a href="#hero" class="hover:underline">Home</a></li>
+                <li><a href="#about" class="hover:underline">About</a></li>
+                <li><a href="#skills" class="hover:underline">Skills</a></li>
+                <li><a href="#projects" class="hover:underline">Projects</a></li>
+                <li><a href="#contact" class="hover:underline">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-12 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-center">เกี่ยวกับฉัน</h2>
+            <div class="space-y-4">
+                <p class="text-lg">สวัสดีครับ! ผมเป็นนักพัฒนาที่หลงใหลในเทคโนโลยีและการสร้างสรรค์โซลูชันที่มีประสิทธิภาพ พร้อมกับความกระตือรือร้นที่จะเรียนรู้สิ่งใหม่ ๆ อยู่เสมอ</p>
+                <h3 class="text-2xl font-semibold mt-6">การศึกษา</h3>
+                <ul class="list-disc ml-6">
+                    <li>ปริญญาตรีวิทยาศาสตร์ สาขาวิทยาการคอมพิวเตอร์ - มหาวิทยาลัย XYZ</li>
+                    <li>ประกาศนียบัตรมัธยมปลาย - โรงเรียน ABC</li>
+                </ul>
+                <h3 class="text-2xl font-semibold mt-6">ประสบการณ์การทำงาน</h3>
+                <ul class="list-disc ml-6">
+                    <li>วิศวกรซอฟต์แวร์ที่ Tech Corp (2564 - ปัจจุบัน)</li>
+                    <li>นักศึกษาฝึกงานที่ Innovate Solutions (2563)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-12 bg-gray-50">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-6 text-center">ทักษะ</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Technical Skills -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">ทักษะทางเทคนิค</h3>
+                    <ul class="space-y-2">
+                        <li class="bg-blue-100 p-4 rounded-md hover:bg-blue-200 transition duration-200">HTML, CSS, JavaScript</li>
+                        <li class="bg-blue-100 p-4 rounded-md hover:bg-blue-200 transition duration-200">React, Vue.js</li>
+                        <li class="bg-blue-100 p-4 rounded-md hover:bg-blue-200 transition duration-200">Node.js, Express.js</li>
+                        <li class="bg-blue-100 p-4 rounded-md hover:bg-blue-200 transition duration-200">Python, Django</li>
+                    </ul>
+                </div>
+                
+                <!-- Soft Skills -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4">ทักษะด้านอื่น ๆ</h3>
+                    <ul class="space-y-2">
+                        <li class="bg-green-100 p-4 rounded-md hover:bg-green-200 transition duration-200">การทำงานเป็นทีม</li>
+                        <li class="bg-green-100 p-4 rounded-md hover:bg-green-200 transition duration-200">การแก้ปัญหา</li>
+                        <li class="bg-green-100 p-4 rounded-md hover:bg-green-200 transition duration-200">การปรับตัว</li>
+                        <li class="bg-green-100 p-4 rounded-md hover:bg-green-200 transition duration-200">การสื่อสาร</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
